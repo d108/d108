@@ -1,0 +1,15 @@
+# LaTeX build artifacts (latexmk writes these into ml_notes/ via -outdir)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Diagram intermediates (committed artifacts are the .pdf figures, not the .svg)
+src/*.svg
+
+# macOS
+.DS_Store
